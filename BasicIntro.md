@@ -56,4 +56,60 @@ IAM Policies Inheritance -Structure
 Version,ID,statement
 Statement-sid,Effect,Principal,Action,Resource,Condition
 
+IAM Password Policy 
+- Strong passwords = high security for your account
+- In AWS you can setup a password policy:
+- Set a minimum password length
+- Require specific character types:including uppercase letters ,lowercase letters, numbers, non-alphanumeric characters
+- Allow all IAM users to change their own passwords
+- Require users to change their password after sometime
+- Prevent password reuse
+
+Multi Factor Authentication -MFA 
+MFA = password you know + security device you own
+MFA in AWS - Virtual MFA device , AUthy ,Universal 2nd Factor(U2F) Security key(Yubikey)
+
+
+What is AWS CLI ?
+A tool that enables you to interact with AWS services using commands in your command line shell.
+
+What is AWS SDK?
+- AWS software Development Kit(AWS SDK)
+- Language Specific APIs(Set of libraries)
+- Enables you to access and manage AWS programmaticaly
+- Embedded within your application
+- Supports c++,java,nodejs,ruby,python
+
+**AWS CLI HANDS ON**
+  aws --version
+  aws configure 
+  key ID
+  Secret id
+  region 
+  output 
+  aws iam list-users
+
+**AWS Cloudshell**
+aws --verion
+terminal in aws cloud which is free to use
+ls
+echo "text" > demo.txt
+cat demo.txt
+pwd
+
+**IAM Roles for Services**
+Assign permission to AWS services with IAM ROle
+Common Roles 
+- EC2 Instance roles
+- Lambda Function roles
+- Roles for cloud Formation
+
+**IAM Security Tools**
+-IAM Credential Report(account-level) : a report that lists all your accounts users and the status of their various credentials
+-IAM Access Advisor(user level) : Access advisor shows the service permissions granted to a user and when those services were last accessed.
+
+
+  
+  
+
 
