@@ -108,6 +108,29 @@ Common Roles
 - IAM Credential Report(account-level) : a report that lists all your accounts users and the status of their various credentials
 - IAM Access Advisor(user level) : Access advisor shows the service permissions granted to a user and when those services were last accessed.
 
+**IAM Guidelines and Best Practices**
+- Dont use the root account except for AWS account setup
+- One physical user = one AWS user
+- Assign users to groups and assign permissions to groups
+- Create a strong password policy
+- Use and enforce the use of Multi Factor Authentication(MFA)
+- Use access Keys for programmatic Access(CLI/SDK)
+- Audit permissions of your account using IAM Credentials Report & IAM Access Advisor
+- Never share IAM users & Access Keys
+
+
+**Shared Responsibily Model**
+
+| Features       | AWS          | YOU  |
+| ------------- |:-------------:| -----:|
+| 1          | Infrastructure(Global national Security) | User,Groups,Roles,Policies management and monitoring |
+| 2     | Configuration and vulnerability analysis     | Enable MFA on all accounts|
+| 3     | Compliance Validation    |    Rotate your keys often |
+| 4    | .....   | Use IAM tools to apply appropriate permissions 
+| 5    |   ..... | Analyse access patterns and review permissions
+
+
+
 
   
   
