@@ -20,4 +20,4 @@ AWS Availability Zones
 2-Each AZ is one or more dicrete data centers with redundant power,networking and connectivity.
 3-They are separated from each other,so that they are isolated from disasters
 
-[logo]: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtarget.com%2Fsearchcloudcomputing%2Ftip%2FUnderstand-AWS-Regions-vs-Availability-Zones&psig=AOvVaw2wvFz2nEY9V3o1-wTGbNMs&ust=1734246167058000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCNls3YpooDFQAAAAAdAAAAABAE "Logo Title Text 2"
+[logo]:https://www.w3schools.com/aws/images/availabilityzones.png "Logo Title Text 2"
