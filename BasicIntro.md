@@ -40,4 +40,20 @@ AWS Services region Scoped-
 4)Rekognition
 
 
-IAM Section 
+**IAM Section ->** 
+
+- IAM = Identity and Access Management, Global Service
+- ROot account created by default, shouldn't be used or shared
+- User are the people within your organisation and can be grouped.
+- Groups only contain users, not other groups
+- User dont have to belong to a group and user can belong to multiple groups
+
+IAM permissions - users and  groups can be assigned JSON documents called policies.
+                - These policies define the permisssions of the users.
+                - Least Privilage Principle , dont give more permissions than a user needs.
+
+IAM Policies Inheritance -Structure
+Version,ID,statement
+Statement-sid,Effect,Principal,Action,Resource,Condition
+
+
