@@ -40,4 +40,4 @@ AWS Services region Scoped-
 4)Rekognition
 
 
-**IAM SECTION -->**
+IAM Section 
