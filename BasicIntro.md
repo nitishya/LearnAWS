@@ -123,11 +123,14 @@ Common Roles
 
 | Features       | AWS          | YOU  |
 | ------------- |:-------------:| -----:|
-| 1          | Infrastructure(Global national Security) | User,Groups,Roles,Policies management and monitoring |
-| 2     | Configuration and vulnerability analysis     | Enable MFA on all accounts|
-| 3     | Compliance Validation    |    Rotate your keys often |
-| 4    | .....   | Use IAM tools to apply appropriate permissions 
-| 5    |   ..... | Analyse access patterns and review permissions
+| 1             | Infrastructure(Global national Security)  | User,Groups,Roles,Policies management and monitoring |
+| 2             | Configuration and vulnerability analysis  | Enable MFA on all accounts|
+| 3             | Compliance Validation                     |    Rotate your keys often |
+| 4             | .....                                     | Use IAM tools to apply appropriate permissions 
+| 5             |   .....                                   | Analyse access patterns and review permissions
+
+
+---
 
 
 
