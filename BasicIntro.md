@@ -43,7 +43,7 @@ AWS Services region Scoped-
 **IAM Section ->** 
 
 - IAM = Identity and Access Management, Global Service
-- ROot account created by default, shouldn't be used or shared
+- Root account created by default, shouldn't be used or shared
 - User are the people within your organisation and can be grouped.
 - Groups only contain users, not other groups
 - User dont have to belong to a group and user can belong to multiple groups
