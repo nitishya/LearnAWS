@@ -21,3 +21,20 @@ AWS Availability Zones
 3-They are separated from each other,so that they are isolated from disasters
 
 [logo]:https://www.w3schools.com/aws/images/availabilityzones.png "Logo Title Text 2"
+
+
+AWS Points of Presence(Edge Locations)-
+->Helpful in delivery content to end users with lower latency
+
+
+AWS Global Services -
+1)IAM
+2)Route 53
+3)CloudFront
+4)WAF
+
+AWS Services region Scoped-
+1)EC2
+2)Elastic BeanStalk
+3)Lambda
+4)Rekognition
