@@ -156,7 +156,34 @@ Common Roles
    - instance types: t2.micro , t2.xlarge ,c5d.4xlarge,r5.16xlarge,m5.8xlarge
    - ![image](https://github.com/user-attachments/assets/735bea61-5a31-4e44-bce7-bc4f7bff4fc8)
  
+EC2 instance-General Purpose
+- Great for diversity of workloads such as web servers or code repositories
+- Balance between
+  - compute
+  - memory
+  - networking
 
+You can view information about the instances on  https://instances.vantage.sh/
+
+Security Groups 
+- Security groups are the fundamental of network security in AWS
+- They control how traffic is allowed into or out of our EC2 instances
+- Security groups only contain allow rules
+- Security groups rules can reference by IP or by security group
+- Security groups are acting firewall on the EC2 instances
+- They regulate
+    - Access to ports
+    - Authorised IP ranges - IPv4 and IPv6
+    - Control of inbound network(from other to the instance )
+    - Control of the outbound network (from the instance to other)
+
+- Classic Ports to know
+    - 22 = SSH(Secure Shell) - log into a Linux instance
+    - 21 = FTP(File Transfer Protocol) - upload files into a file share
+    - 22 = SFTP(Secure File Transfer Protocol) - upload files using SSH
+    - 80 = HTTP - access unsecured websites
+    - 443 = HTTPS - access secured websites
+    - 3389 = RDP(Remote Desktop Protocol) - log into a Windows instance 
 
    
 
