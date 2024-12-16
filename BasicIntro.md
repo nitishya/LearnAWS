@@ -141,6 +141,22 @@ Common Roles
     - Distributing load across machines(ELB).
     - Scaling the services using an auto-scaling group(ASG).
 
+- EC2 sizing and configuration options
+   - Operating OS
+   - how much compute power and cores
+   - how much ram
+   - how much storage space- network attatched(EBS & EFS) , hardware(EC2 instance store)
+   - Network card: speed of the card, Public IP address
+   - Firewall reules:security group
+   - Bootstrap script(configure at first launch): EC2 user data
+   - Bootstrapping means launching commands when machine starts.
+   - That script is only run once at the instance first start
+   - EC2 user data is used to automate boot tasks such as installing updates,installing software,downloading common files from the internet.
+   - EC2 User data script runs with the root user.
+   - instance types: t2.micro , t2.xlarge ,c5d.4xlarge,r5.16xlarge,m5.8xlarge
+   - ![image](https://github.com/user-attachments/assets/735bea61-5a31-4e44-bce7-bc4f7bff4fc8)
+
+   
 
 
   
