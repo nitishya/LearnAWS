@@ -155,6 +155,8 @@ Common Roles
    - EC2 User data script runs with the root user.
    - instance types: t2.micro , t2.xlarge ,c5d.4xlarge,r5.16xlarge,m5.8xlarge
    - ![image](https://github.com/user-attachments/assets/735bea61-5a31-4e44-bce7-bc4f7bff4fc8)
+ 
+
 
    
 
