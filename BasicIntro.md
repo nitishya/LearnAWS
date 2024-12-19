@@ -183,7 +183,12 @@ Security Groups
     - 22 = SFTP(Secure File Transfer Protocol) - upload files using SSH
     - 80 = HTTP - access unsecured websites
     - 443 = HTTPS - access secured websites
-    - 3389 = RDP(Remote Desktop Protocol) - log into a Windows instance 
+    - 3389 = RDP(Remote Desktop Protocol) - log into a Windows instance
+ 
+  **SSH**
+  - SSh(Secure shell) is the one of the most important function.It allows you to control a remote machine, all using command line.
+ 
+  - 
 
    
 
