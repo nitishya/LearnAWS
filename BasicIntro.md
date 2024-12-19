@@ -188,7 +188,20 @@ Security Groups
   **SSH**
   - SSh(Secure shell) is the one of the most important function.It allows you to control a remote machine, all using command line.
  
-  - 
+  - For Windows 10
+      - ssh
+      - ls ->search for pem file
+      - ssh -i .\pemfilename ec2-user@iponaws
+      - yes
+**EC2 Instances Purchasing Options**
+ - On-Demand Instances - short workload, Predictable pricing, pay by second
+ - Reserved(1 & 3 years) - Reserved Instances and Convertible Reserved Instances
+ - Saving Plans(1 & 3 Years) - Commitment to an amount of usage, long workload
+ - Spot Instances - short workloads, cheap, can lose instances (less reliable)
+ - Dedicated Hosts - book an entire physical server, control instances placement
+ - Dedicated Instances - no other customers will share your hardware
+ - Capacity Reservations - reserve capacity in a specific AZ for any duration.
+ - 
 
    
 
