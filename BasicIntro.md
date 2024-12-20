@@ -201,7 +201,15 @@ Security Groups
  - Dedicated Hosts - book an entire physical server, control instances placement
  - Dedicated Instances - no other customers will share your hardware
  - Capacity Reservations - reserve capacity in a specific AZ for any duration.
- - 
+
+**EC2 instance storage**
+- Its a network device(i.e. not a physical drive)
+    - It uses the netork to communicate the instance, which means there might be a bit of latency.
+    - It can be detatched from an EC2 instance and attatched to another one quickly.
+-Its locked to an Availability zone(AZ)
+    - An EBS volume in us-east-la cant be attatched to us-east-lb.
+    - To move a volume across,you first need to snapchot it.
+-Have a provisoned capacity
 
    
 
